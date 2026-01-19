@@ -17,9 +17,9 @@ Este é um projeto de **aprendizado prático** que implementa um pipeline comple
 
 - **Disciplina:** Fundamentos de Machine Learning
 - **Instituição:** SENAC-RJ (MBA em IA & Análise de Dados)
-- **Professor:** Jorge Junio Moreira Antunes
+- **Professor:** Jorge Antunes
 - **Data:** Janeiro/2026
-- **Aluno:** Fábio Ferreira de Andrade
+- **Aluno:** Fábio Andrade
 
 ### 🎓 Objetivo de Aprendizado
 
@@ -48,7 +48,7 @@ Este projeto simula um cenário real onde uma operadora contrata um cientista de
 ## 🛠️ Tecnologias Utilizadas
 
 ### Ferramenta Principal
-- **[Orange Data Mining 3.36](https://orangedatamining.com/)** - Plataforma visual para Machine Learning (no-code)
+- **[Orange Data Mining 3.40](https://orangedatamining.com/)** - Plataforma visual para Machine Learning (no-code)
   - Extensão: Orange3-Explain (para interpretabilidade)
 
 ### Algoritmos Testados
@@ -58,7 +58,7 @@ Este projeto simula um cenário real onde uma operadora contrata um cientista de
 - Neural Networks
 
 ### Ambiente
-- **Sistema Operacional:** Windows 11
+- **Sistema Operacional:** Windows 10
 - **Dependências:** Microsoft Visual C++ Redistributable (necessário para extensão Explain)
 
 ---
@@ -141,7 +141,7 @@ A queda de performance entre validação cruzada e teste foi **inferior a 3% no 
 
 ---
 
-## 💼 Caso de Uso Real: Previsão para Novo Cliente
+## 💼 Caso de Simulação: Previsão para Novo Cliente
 
 **Perfil do Cliente:**
 - Tempo de conta: 128 semanas
@@ -201,7 +201,7 @@ telecom-churn-prediction-mba/
 1. **Instalar Orange Data Mining:**
    ```bash
    # Download: https://orangedatamining.com/download/
-   # Versão recomendada: 3.36+
+   # Versão recomendada: 3.40+
    ```
 
 2. **Instalar dependências do Windows (se necessário):**
@@ -273,17 +273,16 @@ Como este é um projeto de aprendizado contínuo, planejo:
 
 ## 📚 Recursos e Referências
 
+### Artigos Científicos sobre Churn Prediction
+
+- Hadden, J., Tiwari, A., Roy, R., & Ruta, D. (2007). [Computer assisted customer churn management: State-of-the-art and future trends](https://www.sciencedirect.com/science/article/abs/pii/S0305054805003503). *Computers & Operations Research*, 34(10), 2902-2917.
+
+- Coussement, K., & Van den Poel, D. (2008). [Churn prediction in subscription services: An application of support vector machines while comparing two parameter-selection techniques](https://www.sciencedirect.com/science/article/abs/pii/S0957417406002806). *Expert Systems with Applications*, 34(1), 313-327.
+
 ### Documentação Orange Data Mining
-- [Orange Documentation](https://orange-data-mining-library.readthedocs.io/)
+
+- [Orange Data Mining - Documentação Oficial](https://orange-data-mining-library.readthedocs.io/)
 - [Orange3-Explain Extension](https://github.com/biolab/orange3-explain)
-
-### Artigos sobre Churn Prediction
-- Hadden, J., et al. (2007). "Computer assisted customer churn management: State-of-the-art and future trends"
-- Coussement, K., & Van den Poel, D. (2008). "Churn prediction in subscription services"
-
-### Material de Estudo ML
-- Hastie, T., Tibshirani, R., & Friedman, J. (2009). "The Elements of Statistical Learning"
-- Müller, A. C., & Guido, S. (2016). "Introduction to Machine Learning with Python"
 
 ---
 
@@ -312,17 +311,11 @@ O uso de IA neste projeto seguiu princípios éticos e educacionais, priorizando
 
 ## 🤝 Sobre o Autor
 
-**Fábio Ferreira de Andrade**
+**Fábio Andrade**
 
 Profissional em **transição para tecnologia** com 20 anos de experiência em gestão de negócios (área veterinária). Atualmente cursando **MBA em Inteligência Artificial e Análise de Dados** aplicados a Negócios no SENAC-RJ, com conclusão prevista para outubro/2026.
 
-**Motivação:** Combinar experiência em negócios com novas habilidades técnicas em Data Science e Machine Learning para resolver problemas reais com dados.
-
-### 📫 Contato
-
-- **GitHub:** [@thedrads](https://github.com/thedrads)
-- **LinkedIn:** [Fábio Ferreira de Andrade](https://linkedin.com/in/fabio-andrade) *(ajuste o link)*
-- **Portfolio:** [thedrads.github.io](https://thedrads.github.io)
+**Motivação:** Combinar experiência em negócios com novas habilidades técnicas em Data Science, IA e Machine Learning para resolver problemas reais com dados.
 
 ### 🎯 Interesses Profissionais
 
@@ -331,31 +324,17 @@ Profissional em **transição para tecnologia** com 20 anos de experiência em g
 - 📈 Analytics & Business Intelligence
 - ☁️ Cloud Computing (AWS)
 
+### 📫 Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabioandradegf/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thedrads)
+[![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://thedrads.github.io)
+
 ---
 
 ## 📄 Licença
 
 Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-```
-MIT License
-
-Copyright (c) 2026 Fábio Ferreira de Andrade
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-```
 
 ---
 
@@ -367,7 +346,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ## ⭐ Agradecimentos
 
-- **Prof. Jorge Junio Moreira Antunes** - Pela orientação na disciplina de Fundamentos de Machine Learning
+- **Prof. Jorge Antunes** - Pela orientação na disciplina de Fundamentos de Machine Learning
 - **SENAC-RJ** - Pela estrutura e qualidade do MBA
 - **Comunidade Orange Data Mining** - Pela ferramenta open-source excepcional
 - **Colegas de turma** - Pelas discussões e troca de conhecimento
@@ -378,6 +357,6 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 **Se este projeto foi útil para você, considere dar uma ⭐!**
 
-*Desenvolvido com 💙 e muito aprendizado por [Fábio Andrade](https://github.com/thedrads)*
+*Desenvolvido com 🥵 e muito aprendizado por [Fábio Andrade](https://github.com/thedrads)*
 
 </div>
