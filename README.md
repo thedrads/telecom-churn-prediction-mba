@@ -1,11 +1,33 @@
-# 📊 Previsão de Churn em Telecomunicações - Projeto Acadêmico MBA
+# 📊 Previsão de Churn em Telecomunicações
+### 🎓 Projeto acadêmico | MBA em IA & Análise de Dados – SENAC-RJ
 
-[![Orange Data Mining](https://img.shields.io/badge/Orange-Data%20Mining-orange)](https://orangedatamining.com/)
-[![Machine Learning](https://img.shields.io/badge/ML-Random%20Forest-green)](https://github.com/thedrads/telecom-churn-prediction-mba)
-[![Academic Project](https://img.shields.io/badge/Project-MBA%20SENAC--RJ-blue)](https://github.com/thedrads/telecom-churn-prediction-mba)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+---
+
+[![Orange Data Mining](https://img.shields.io/badge/Orange-Data%20Mining-E9782D?style=for-the-badge)](https://orangedatamining.com/)
+[![Machine Learning](https://img.shields.io/badge/ML-Random%20Forest-228B22?style=for-the-badge)](https://github.com/thedrads/telecom-churn-prediction-mba)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)]()
 
 > **Projeto acadêmico de Machine Learning** desenvolvido durante o MBA em Inteligência Artificial e Análise de Dados aplicados a Negócios (SENAC-RJ). Este trabalho demonstra a aplicação prática de técnicas de ML para resolver um problema real de negócio: **predição de cancelamento de clientes (churn)** em empresas de telecomunicações.
+
+---
+
+## 📑 Sumário
+
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Minha Jornada](#-minha-jornada)
+- [Problema de Negócio](#-problema-de-negócio)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Metodologia](#-metodologia)
+- [Resultados Principais](#-resultados-principais)
+- [Caso de Simulação](#-caso-de-simulação-previsão-para-novo-cliente)
+- [Estrutura do Repositório](#-estrutura-do-repositório)
+- [Como Reproduzir](#-como-reproduzir)
+- [Aprendizados e Reflexões](#-aprendizados-e-reflexões)
+- [Recursos e Referências](#-recursos-e-referências)
+- [Declaração de Uso de IA](#-declaração-de-uso-de-ia)
+- [Autor](#-autor)
+- [Licença](#-licença)
 
 ---
 
@@ -15,21 +37,31 @@ Este é um projeto de **aprendizado prático** que implementa um pipeline comple
 
 ### 📚 Contexto Acadêmico
 
-- **Disciplina:** Fundamentos de Machine Learning
-- **Instituição:** SENAC-RJ (MBA em IA & Análise de Dados)
-- **Professor:** Jorge Antunes
-- **Data:** Janeiro/2026
-- **Aluno:** Fábio Andrade
+| Informação | Detalhe |
+|------------|---------|
+| **Disciplina** | Fundamentos de Machine Learning |
+| **Instituição** | SENAC-RJ |
+| **Curso** | MBA em IA & Análise de Dados aplicados a Negócios |
+| **Professor** | Jorge Antunes |
+| **Data** | Janeiro/2026 |
+
+---
+
+## 🚀 Minha Jornada
+
+Sou gestor financeiro com 20 anos de experiência em gestão empresarial, atualmente em transição de carreira para Data Science e Cloud Computing. Este projeto faz parte da minha formação no **MBA em IA & Análise de Dados (SENAC-RJ)** e complementa meus estudos no programa **Oracle Next Education (ONE)**.
 
 ### 🎓 Objetivo de Aprendizado
 
-Este projeto foi desenvolvido como parte da minha jornada de **transição para a área de tecnologia**, após 20 anos de experiência em gestão de negócios. O trabalho demonstra:
+Este projeto demonstra:
 
 - Compreensão de conceitos fundamentais de Machine Learning
 - Capacidade de executar um pipeline ML completo (preparação, modelagem, validação, deploy)
 - Aplicação prática de validação cruzada e técnicas de prevenção de overfitting
 - Interpretação de modelos e extração de insights de negócio
 - Comunicação técnica através de documentação estruturada
+
+Como iniciante em programação e ML, busco aprender continuamente e trocar conhecimento com a comunidade. Este repositório representa um passo concreto na construção do meu portfólio técnico, com transparência sobre meu nível atual e compromisso com a evolução constante.
 
 ---
 
@@ -43,21 +75,32 @@ Este projeto foi desenvolvido como parte da minha jornada de **transição para 
 
 Este projeto simula um cenário real onde uma operadora contrata um cientista de dados para desenvolver um sistema de predição de churn.
 
+### Perspectiva de Negócio
+
+Com base na minha experiência em gestão, destaco que o churn não representa apenas perda de receita recorrente, mas também **desperdício do CAC (Customer Acquisition Cost)** investido. Em telecomunicações, recuperar um cliente perdido custa significativamente mais do que prevenir o cancelamento, o que justifica o investimento em modelos preditivos como ferramenta estratégica de retenção.
+
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🧰 Tecnologias Utilizadas
 
 ### Ferramenta Principal
-- **[Orange Data Mining 3.40](https://orangedatamining.com/)** - Plataforma visual para Machine Learning (no-code)
-  - Extensão: Orange3-Explain (para interpretabilidade)
+
+| Tecnologia | Versão | Uso |
+|------------|--------|-----|
+| [Orange Data Mining](https://orangedatamining.com/) | 3.40+ | Plataforma visual para ML (no-code) |
+| Orange3-Explain | - | Extensão para interpretabilidade |
 
 ### Algoritmos Testados
-- **Random Forest** (escolhido como modelo final)
-- Gradient Boosting Machine (GBM)
-- Logistic Regression (Ridge e Lasso)
-- Neural Networks
+
+| Algoritmo | Status |
+|-----------|--------|
+| **Random Forest** | ✅ Modelo final (300 árvores) |
+| Gradient Boosting Machine (GBM) | Testado |
+| Logistic Regression (Ridge/Lasso) | Testado |
+| Neural Networks | Testado |
 
 ### Ambiente
+
 - **Sistema Operacional:** Windows 10
 - **Dependências:** Microsoft Visual C++ Redistributable (necessário para extensão Explain)
 
@@ -67,33 +110,39 @@ Este projeto simula um cenário real onde uma operadora contrata um cientista de
 
 O projeto seguiu um pipeline estruturado de Machine Learning:
 
-### 1️⃣ **Análise Exploratória e Hipóteses**
+### 1️⃣ Análise Exploratória e Hipóteses
+
 - Levantamento de hipóteses sobre importância das variáveis
 - Atribuição de notas de relevância (0-100) para cada feature
 - Análise conceitual baseada em lógica de negócio
 
-### 2️⃣ **Preparação dos Dados**
-- Base de dados: `telecom_churn_complete.xlsx` (fornecida pelo professor)
+### 2️⃣ Preparação dos Dados
+
+- **Base de dados:** `telecom_churn_complete.xlsx` (fornecida pelo professor)
 - **10 variáveis preditoras:** account_age_weeks, contract_renewal, data_plan, data_usage_gb, customer_service_calls, day_minutes, day_calls, monthly_charge, overage_fee, roam_minutes
 - **Target:** churn (binário: sim/não)
-- Split: 80% treino / 20% teste (hold-out)
+- **Split:** 80% treino / 20% teste (hold-out)
 
-### 3️⃣ **Seleção de Modelos**
+### 3️⃣ Seleção de Modelos
+
 - Teste de **16+ configurações** de modelos
 - Validação cruzada estratificada (k-fold, k=10)
 - Comparação baseada em múltiplas métricas (AUC, Accuracy, F1, MCC)
 
-### 4️⃣ **Validação Final**
+### 4️⃣ Validação Final
+
 - Teste em conjunto hold-out (20% não visto)
 - Análise de overfitting
 - Avaliação de generalização
 
-### 5️⃣ **Interpretabilidade**
+### 5️⃣ Interpretabilidade
+
 - Permutation Feature Importance (baseado em AUC)
 - Comparação entre importância esperada vs. real
 - Validação de hipóteses iniciais
 
-### 6️⃣ **Deploy Simulado**
+### 6️⃣ Deploy Simulado
+
 - Previsão em novo cliente (dados fornecidos)
 - Recomendações de negócio
 - Análise de casos limítrofes
@@ -123,6 +172,7 @@ O projeto seguiu um pipeline estruturado de Machine Learning:
 ### ✅ Análise de Overfitting
 
 A queda de performance entre validação cruzada e teste foi **inferior a 3% no AUC**, indicando:
+
 - ✅ Boa capacidade de generalização
 - ✅ Ausência de overfitting significativo
 - ✅ Modelo adequado para produção
@@ -144,21 +194,27 @@ A queda de performance entre validação cruzada e teste foi **inferior a 3% no 
 ## 💼 Caso de Simulação: Previsão para Novo Cliente
 
 **Perfil do Cliente:**
-- Tempo de conta: 128 semanas
-- Renovação de contrato: Sim
-- Plano de dados: Não
-- Chamadas ao suporte: 4
-- Mensalidade: $45.00
+
+| Atributo | Valor |
+|----------|-------|
+| Tempo de conta | 128 semanas |
+| Renovação de contrato | Sim |
+| Plano de dados | Não |
+| Chamadas ao suporte | 4 |
+| Mensalidade | $45.00 |
 
 **Resultado da Previsão:**
+
 - ⚠️ **Classe Prevista:** NÃO CHURN (cliente deve permanecer)
 - 📊 **Probabilidade de permanência:** 53%
 - 📊 **Probabilidade de cancelamento:** 47%
 
 **Interpretação:**
+
 Este é um **caso limítrofe** (diferença de apenas 6 pontos percentuais). O cliente está na fronteira de decisão do modelo e representa **risco moderado-alto**, merecendo atenção especial da equipe de retenção.
 
 **Recomendações de Negócio:**
+
 1. 📞 Contato proativo do time de retenção
 2. 🎁 Ofertas personalizadas ou revisão de plano
 3. 💰 Redução de cobranças extras ou ajustes contratuais
@@ -169,23 +225,23 @@ Este é um **caso limítrofe** (diferença de apenas 6 pontos percentuais). O cl
 
 ```
 telecom-churn-prediction-mba/
-├── README.md                          # Documentação principal (este arquivo)
+├── README.md                          # Documentação principal
 ├── LICENSE                            # Licença MIT
 ├── data/                              # Dados do projeto
-│   ├── cliente_novo.xlsx             # Novo cliente para previsão
-│   └── hipoteses_iniciais.xlsx       # Análise prévia de variáveis
+│   ├── cliente_novo.xlsx              # Novo cliente para previsão
+│   └── hipoteses_iniciais.xlsx        # Análise prévia de variáveis
 ├── models/                            # Modelos treinados
-│   └── modelo_final_RF.pkcls         # Random Forest (300 trees)
+│   └── modelo_final_RF.pkcls          # Random Forest (300 trees)
 ├── workflow/                          # Arquivos Orange Data Mining
-│   ├── workflow_completo.ows         # Pipeline ML completo
-│   └── workflow_diagram.png          # Diagrama visual do workflow
+│   ├── workflow_completo.ows          # Pipeline ML completo
+│   └── workflow_diagram.png           # Diagrama visual do workflow
 ├── docs/                              # Documentação detalhada
-│   ├── relatorio_completo.pdf        # Relatório acadêmico oficial
-│   └── metodologia.md                # Detalhamento da metodologia
+│   ├── relatorio_completo.pdf         # Relatório acadêmico oficial
+│   └── metodologia.md                 # Detalhamento da metodologia
 ├── results/                           # Resultados e análises
-│   ├── feature_importance.png        # Gráfico de importância
-│   ├── model_comparison.png          # Comparação de modelos
-│   └── predictions_sample.png        # Exemplo de previsões
+│   ├── feature_importance.png         # Gráfico de importância
+│   ├── model_comparison.png           # Comparação de modelos
+│   └── predictions_sample.png         # Exemplo de previsões
 └── images/                            # Imagens para documentação
     ├── workflow_overview.png
     ├── cross_validation_results.png
@@ -199,10 +255,8 @@ telecom-churn-prediction-mba/
 ### Pré-requisitos
 
 1. **Instalar Orange Data Mining:**
-   ```bash
-   # Download: https://orangedatamining.com/download/
-   # Versão recomendada: 3.40+
-   ```
+   - Download: [https://orangedatamining.com/download/](https://orangedatamining.com/download/)
+   - Versão recomendada: 3.40+
 
 2. **Instalar dependências do Windows (se necessário):**
    - Microsoft Visual C++ Redistributable
@@ -242,7 +296,6 @@ telecom-churn-prediction-mba/
 
 **1. Instalação da Extensão Explain**
 - **Problema:** Erro ao instalar Orange3-Explain devido a dependências do Python
-- **Mensagem:** `Command failed: python -m pip install --upgrade exited with non zero status`
 - **Causa Raiz:** Falta do Microsoft Visual C++ Redistributable no Windows
 - **Solução:** Download e instalação do C++ Redistributable + reinicialização do sistema
 - **Aprendizado:** Importância de compreender dependências de sistema para ferramentas Python
@@ -256,7 +309,7 @@ telecom-churn-prediction-mba/
 
 1. **Validação Cruzada é Essencial:** Sem k-fold, não teria detectado a consistência do modelo
 2. **Interpretabilidade Importa:** Permutation Feature Importance validou hipóteses iniciais
-3. **Casos Limítrofes Existem:** Cliente com 53% vs 47% mostra que ML não é magia - é probabilidade
+3. **Casos Limítrofes Existem:** Cliente com 53% vs 47% mostra que ML não é magia — é probabilidade
 4. **Documentação é Aprendizado:** Escrever este README solidificou meu entendimento do projeto
 
 ### 🎯 Próximos Passos
@@ -286,9 +339,11 @@ Como este é um projeto de aprendizado contínuo, planejo:
 
 ---
 
-## ⚖️ Declaração de Uso de IA
+## 🤖 Declaração de Uso de IA
 
-Este projeto foi desenvolvido com apoio de **ferramentas de Inteligência Artificial generativa**, utilizadas como **assistente técnico** para:
+Este projeto foi desenvolvido com assistência de **Inteligência Artificial Generativa**.
+
+### Escopo de Utilização
 
 - 📝 Organização de ideias e estruturação de documentação
 - 🔍 Revisão técnica de conceitos de Machine Learning
@@ -297,66 +352,54 @@ Este projeto foi desenvolvido com apoio de **ferramentas de Inteligência Artifi
 
 ### Responsabilidade
 
-Todo o **conteúdo final, análises, insights, decisões técnicas e conclusões** foram integralmente **revisados, validados e aprovados** pelo autor. A inteligência artificial foi utilizada como ferramenta de apoio ao desenvolvimento, **complementando** o trabalho intelectual do autor, **não o substituindo**.
+Todo o conteúdo final — análises, insights, decisões técnicas e conclusões foram **integralmente revisados, validados e aprovados pelo autor**. A IA foi utilizada como ferramenta de apoio ao desenvolvimento, complementando o trabalho intelectual, não o substituindo.
 
-### Referências sobre Uso Ético de IA em Contextos Acadêmicos
+### Referências sobre Disclosure de IA
 
-- [Princeton University - Disclosing the Use of AI](https://writing.princeton.edu/owp/ai-policies)
-- [Arizona State University - Acknowledging AI Usage](https://provost.asu.edu/ai-guidance)
-- [AID Framework - AI Disclosure](https://www.aidisclosure.org/)
+- [Princeton University - Disclosing the Use of AI](https://libguides.princeton.edu/generativeAI/disclosure)
+- [Arizona State University - Acknowledging AI Usage](https://libguides.asu.edu/generativeai/acknowledgement)
+- [AID Framework - AI Disclosure](https://crln.acrl.org/index.php/crlnews/article/view/26548)
 
-O uso de IA neste projeto seguiu princípios éticos e educacionais, priorizando transparência e aprendizado genuíno.
-
----
-
-## 🤝 Sobre o Autor
-
-**Fábio Andrade**
-
-Profissional em **transição para tecnologia** com 20 anos de experiência em gestão de negócios (área veterinária). Atualmente cursando **MBA em Inteligência Artificial e Análise de Dados** aplicados a Negócios no SENAC-RJ, com conclusão prevista para outubro/2026.
-
-**Motivação:** Combinar experiência em negócios com novas habilidades técnicas em Data Science, IA e Machine Learning para resolver problemas reais com dados.
-
-### 🎯 Interesses Profissionais
-
-- 📊 Data Science & Machine Learning
-- 🤖 Inteligência Artificial aplicada a Negócios
-- 📈 Analytics & Business Intelligence
-- ☁️ Cloud Computing (AWS)
-
-### 📫 Contato
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabioandradegf/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thedrads)
-[![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://thedrads.github.io)
-
----
-
-## 📄 Licença
-
-Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
----
-
-## 🏷️ Tags
-
-`machine-learning` `churn-prediction` `random-forest` `orange-data-mining` `data-science` `mba-project` `academic-project` `telecommunications` `customer-retention` `predictive-analytics` `classification` `cross-validation` `feature-importance` `model-interpretability` `business-analytics` `senac-rj` `portfolio-project`
+> Este projeto está alinhado à minha formação contínua em IA aplicada aos negócios, incluindo cursos como [IA Aplicada aos Negócios – FGV](https://educacao-executiva.fgv.br/cursos/live/curta-media-duracao-live/inteligencia-artificial-aplicada-aos-negocios-2) e [Generative AI for Productivity – Cornell](https://ecornell.cornell.edu/certificates/technology/generative-ai-for-productivity/).
 
 ---
 
 ## ⭐ Agradecimentos
 
-- **Prof. Jorge Antunes** - Pela orientação na disciplina de Fundamentos de Machine Learning
-- **SENAC-RJ** - Pela estrutura e qualidade do MBA
-- **Comunidade Orange Data Mining** - Pela ferramenta open-source excepcional
-- **Colegas de turma** - Pelas discussões e troca de conhecimento
+- **Prof. Jorge Antunes** — Pela orientação na disciplina de Fundamentos de Machine Learning
+- **SENAC-RJ** — Pela estrutura e qualidade do MBA
+- **Comunidade Orange Data Mining** — Pela ferramenta open-source excepcional
+- **Colegas de turma** — Pelas discussões e troca de conhecimento
 
 ---
 
-<div align="center">
+## 👤 Autor
 
-**Se este projeto foi útil para você, considere dar uma ⭐!**
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/thedrads">
+        <img src="https://github.com/thedrads.png" width="100px;" alt="Fábio Andrade"/><br>
+        <sub><b>Fábio Andrade</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-*Desenvolvido com 🥵 e muito aprendizado por [Fábio Andrade](https://github.com/thedrads)*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabioandradegf/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thedrads)
 
-</div>
+**Programa:** MBA em IA & Análise de Dados – SENAC-RJ  
+**Previsão de conclusão:** Outubro/2026
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT — consulte [LICENSE](LICENSE) para detalhes.
+
+---
+
+<p align="center">
+  Desenvolvido por <a href="https://github.com/thedrads">Fábio Andrade</a> | Aberto a feedbacks e contribuições
+</p>
